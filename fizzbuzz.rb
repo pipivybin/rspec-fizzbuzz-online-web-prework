@@ -1,9 +1,9 @@
 def fizzbuzz(input)
-  if input = 3
+  if input % 3 == 0
     return "Fizz"
-  elsif input = 5
+  elsif input % 5 == 0
     return "Buzz"
-  elsif input = 15
+  elsif input % 15 == 0
     return "FizzBuzz"
   else
     return "nil"
