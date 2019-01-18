@@ -1,7 +1,7 @@
 def fizzbuzz(input)
-  if input % 3 == 0
+  if input % 3 == 0 && input % 5 != 0
     return "Fizz"
-  elsif input % 5 == 0
+  elsif input % 5 == 0 && input % 3 != 0
     return "Buzz"
   elsif input % 15 == 0
     return "FizzBuzz"
